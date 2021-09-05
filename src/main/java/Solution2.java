@@ -19,15 +19,9 @@ public class Solution2
         System.out.println("Enter a String for Character Count: ");
         String cString = scanR.nextLine();
 
-        for (int i = 0; i<cString.length(); i++)
-        {
-            if(cString.charAt(i) != ' ')
-            {
-                counter++;
-            }
-        }
+        counter = cString.length();
 
-        System.out.println("Total number of characters in a string: " + counter);
+        System.out.println(cString + " has " + counter + " characters.");
     }
 }
 
